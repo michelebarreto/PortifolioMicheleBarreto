@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+/*CAPA*/
+.capa{
+    background: url(./imagens/fotom2.jpg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: right;
+    padding-top: 17rem;
+    color:rgb(173, 6, 123);
+}
+.capa_titulo{
+    font-size: 2rem;
+    font-family: georgia;
+}
+.capa_subtitulo{
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.botao_branco{
+    border-radius: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.descricao{
+    display:flex;
+    width: 90%;
+    align-content: center;
+    }
+
+    .descricao_esquerda{
+        width: 40%;
+        margin: 40px;
+        }
+   
+.sobre_mim{
+    color: rgb(161,161,161);
+    font-size: 50px;
+    line-height: 3rem;
+    margin: 30px;
+}
+.paragrafo1{
+    font-size: 20px;
+    margin: 30px;
+}
+.paragrafo2{
+    font-size: 18px;
+    margin: 30px;
+}
+.botao_cv{
+    border: purple solid 2px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: purple;
+    margin: 30px;
+
+}
+
+.descricao_direita{
+    width: 40%;
+    margin: 40px;
+    padding-top: 4rem;
+    }
+.habilidade{
+    font-size: 20px;
+}
+.ul{
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.li{
+    line-height: 2rem;
+}
+
+.rede-sociais{
+    text-align: center;
+    margin-top: 3rem;
+    }
+.quadrinho{
+    display:inline-block;
+    background-color: rgb(231, 103, 231);
+    width: 15%;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+}
+img{
+    height: 40px;
+}
+h5{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+footer{
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
+}
